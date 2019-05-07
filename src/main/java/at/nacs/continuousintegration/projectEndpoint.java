@@ -10,6 +10,6 @@ public class projectEndpoint {
 
   @GetMapping
     String get(){
-    return "Hi nacs";
+    return "Hi nacs 100";
   }
 }

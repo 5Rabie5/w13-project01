@@ -21,7 +21,7 @@ class projectEndpointTest {
   void get() {
     String url="/";
     String acual = restTemplate.getForObject(url, String.class);
-    String expected = "Hi nacs";
+    String expected = "Hi nacs 100";
     assertEquals(expected,acual);
 
   }
